@@ -715,20 +715,22 @@ fill: #4D5AE5;
 }
 
 
-.checkbox{
-
+.privacy-icon svg {
+    width: 10px;
+    height: 8px;
 }
 
-.checkbox-input{
-
+.privacy-icon svg use {
+    fill: var(--text-color);
 }
 
-.chceckbox-lable{
-
+.input-container input:checked+.label-privacy .privacy-icon {
+    background-color: var(--icon-bg-color);
+    border: none;
 }
 
-.checkbox-span{
-    
+.input-container input:checked+.label-privacy .privacy-icon svg use {
+    fill: var(--icon-color);
 }
 /* modal-end */
 
