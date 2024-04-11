@@ -563,4 +563,29 @@ overflow: hidden;
  
 
 
+/* modal */
+.modal-overlay{
+    background: rgba(46, 47, 66, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background: #fcfcfc; 
+    border-radius: 4px;
+        width: 408px;
+        height: 584px;
+
+}
+/* modal-end */
+
+
 
