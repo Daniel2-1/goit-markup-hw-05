@@ -747,7 +747,7 @@ fill: #4D5AE5;
 
 }
 
-.modal-chechbox input:checked + .checkbox-span {
+.checkbox-input:checked + .checkbox-label .checkbox-span {
     border-color: #404bbf;
     border: none;
     fill: #F4F4FD;
