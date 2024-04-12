@@ -753,7 +753,7 @@ fill: #4D5AE5;
     fill: #F4F4FD;
 }
 
-.checkbox-input:focus + .checkbox-svg{
+.btn-svg input:focus + .checkbox-svg{
     fill: #4D5AE5;
 }
 
