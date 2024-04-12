@@ -743,10 +743,14 @@ fill: #4D5AE5;
         fill: transparent;
 }
 
-.checkbox-svg:checked {
-border-color: #404bbf;
-border:none;
-fill:#F4F4FD;
+.checkbox-svg {
+
+}
+
+.checkbox-input:checked {
+    border-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 /* modal-end */
 
