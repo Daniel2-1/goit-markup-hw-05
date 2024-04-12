@@ -753,6 +753,10 @@ fill: #4D5AE5;
     fill: #F4F4FD;
 }
 
+.checkbox-input:focus + .checkbox-svg{
+    fill: #4D5AE5;
+}
+
 .checkbox-logo{
     color: #4d5ae5;
     display: block;
@@ -774,6 +778,8 @@ fill: #4D5AE5;
             cursor: pointer;
             border: none;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            min-width: 169px;
+            background-color: #4D5AE5;
 }
 /* modal-end */
 
