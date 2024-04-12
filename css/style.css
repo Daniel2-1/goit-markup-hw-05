@@ -715,23 +715,7 @@ fill: #4D5AE5;
 }
 
 
-.privacy-icon svg {
-    width: 10px;
-    height: 8px;
-}
 
-.privacy-icon svg use {
-    fill: var(--text-color);
-}
-
-.input-container input:checked+.label-privacy .privacy-icon {
-    background-color: var(--icon-bg-color);
-    border: none;
-}
-
-.input-container input:checked+.label-privacy .privacy-icon svg use {
-    fill: var(--icon-color);
-}
 /* modal-end */
 
 
