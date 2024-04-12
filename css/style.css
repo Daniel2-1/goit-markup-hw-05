@@ -747,7 +747,7 @@ fill: #4D5AE5;
 
 }
 
-.checkbox-span input:checked {
+.checkbox-span:checked {
     border-color: #404bbf;
     border: none;
     fill: #F4F4FD;
