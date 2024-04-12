@@ -727,7 +727,7 @@ fill: #4D5AE5;
 }
 
 .checkbox-label{
-    font-weight: 400;
+   
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
@@ -744,6 +744,7 @@ fill: #4D5AE5;
         align-items: center;
         justify-content: center;
         fill: transparent;
+        margin-right: 8px;
 }
 
 .checkbox-svg {
@@ -762,7 +763,7 @@ fill: #4D5AE5;
 
 .checkbox-logo{
     color: #4d5ae5;
-    display: block;
+    
 }
 
 .checkbox-btn{
