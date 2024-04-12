@@ -752,6 +752,11 @@ fill: #4D5AE5;
     border: none;
     fill: #F4F4FD;
 }
+
+.checkbox-logo{
+    color: #4d5ae5;
+    display: block;
+}
 /* modal-end */
 
 
