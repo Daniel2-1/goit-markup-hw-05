@@ -608,16 +608,20 @@ font-weight: 400;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    font-weight: 500;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         background: #4d5ae5;
-        
+        border: none;
         font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.04em;
             text-align: center;
             color: #fff;
+            gap: 16px;
+            padding: 8px 24px;
+            flex-direction: row;
 }
 
 .email-svg {
