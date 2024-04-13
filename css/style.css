@@ -588,11 +588,14 @@ overflow: hidden;
 
 
 .email-input {
-    border: 1px solid #fff;
-        border-radius: 4px;
-        width: 264px;
-        height: 40px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    padding-left: 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .email-btn {
@@ -600,6 +603,7 @@ overflow: hidden;
         padding: 8px 24px;
         width: 165px;
         height: 40px;
+        
 }
 
 .email-svg {}
