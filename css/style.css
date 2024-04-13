@@ -604,16 +604,29 @@ font-weight: 400;
 }
 
 .email-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
         padding: 8px 24px;
         width: 165px;
         height: 40px;
+        background: #4d5ae5;
         
+        font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            text-align: center;
+            color: #fff;
 }
 
-.email-svg {}
+.email-svg {
+  margin-left: 16px;
+}
 
-.email-icon {}
+.email-icon {
+    
+}
 /* email-end */
 
 /* modal */
