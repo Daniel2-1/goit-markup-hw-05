@@ -484,7 +484,6 @@ overflow: hidden;
     background-color: #2e2f42;
 }
 
-.container {}
 
 .footer-link {
     display: inline-block;
@@ -562,6 +561,44 @@ overflow: hidden;
 }
  
 
+/* email */
+.email {}
+
+.email-subscribe {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+}
+
+.email-label {
+    
+}
+
+.email-div {
+    gap: 24px;
+}
+
+.email-input {
+    border: 1px solid #fff;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+}
+
+.email-btn {
+    border-radius: 4px;
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+}
+
+.email-svg {}
+
+.email-icon {}
+/* email-end */
 
 /* modal */
 .modal-overlay{
@@ -576,21 +613,31 @@ overflow: hidden;
     align-items: center;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0,4 0 0,2 1) visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .modal{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 408px;
     min-height: 584px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc; 
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn{
@@ -608,6 +655,7 @@ overflow: hidden;
         margin: 0;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding: 0;
+
 }
 
 .modal-btn:hover {
@@ -624,13 +672,11 @@ overflow: hidden;
 
 .btn-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 4px;
-        width: 24px;
-        height: 24px;
+    
 }
 
-.btn-svg:hover,
-.btn-svg:focus {
+.modal-btn:hover .btn-svg,
+.modal-btn:focus .btn-svg {
     fill: #ffffff;
 }
 
@@ -784,6 +830,7 @@ fill: #4D5AE5;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             min-width: 169px;
             background-color: #4D5AE5;
+            margin: 20px auto;
 }
 /* modal-end */
 
