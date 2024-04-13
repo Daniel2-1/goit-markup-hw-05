@@ -562,7 +562,9 @@ overflow: hidden;
  
 
 /* email */
-.email {}
+.email {
+    padding-left: 80px;
+}
 
 .email-subscribe {
     font-weight: 500;
@@ -609,7 +611,7 @@ font-weight: 400;
     align-items: center;
     border-radius: 4px;
     font-weight: 500;
-        padding: 8px 24px;
+       
         min-width: 165px;
         height: 40px;
         background: #4d5ae5;
@@ -620,8 +622,9 @@ font-weight: 400;
             text-align: center;
             color: #fff;
             gap: 16px;
-            padding: 8px 24px;
+            
             flex-direction: row;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email-svg {
@@ -864,6 +867,11 @@ fill: #4D5AE5;
             min-width: 169px;
             background-color: #4D5AE5;
             margin: 20px auto;
+}
+
+.checkbox-btn:hover,
+.checkbox-btn:focus {
+    background-color: #404bbf;
 }
 /* modal-end */
 
