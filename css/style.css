@@ -830,7 +830,7 @@ fill: #4D5AE5;
 }
 
 .checkbox-svg {
-
+margin-left: 16px;
 }
 
 .checkbox-input:checked + .checkbox-label span {
@@ -839,11 +839,8 @@ fill: #4D5AE5;
 fill: #F4F4FD;
 }
 
-.checkbox-input:aktive + .checkbox-label span {
 
-}
-
-.btn-svg input:focus + .checkbox-svg snap{
+.btn-svg input:focus+.checkbox-svg snap {
     fill: #4D5AE5;
 }
 
