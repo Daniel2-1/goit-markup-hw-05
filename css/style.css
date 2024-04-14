@@ -628,7 +628,7 @@ font-weight: 400;
 }
 
 .email-svg {
-  margin-left: 16px;
+ 
 }
 
 .email-icon {
@@ -836,12 +836,17 @@ fill: #4D5AE5;
 .checkbox-input:checked + .checkbox-label span {
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+fill: #F4F4FD;
 }
 
-.btn-svg input:focus + .checkbox-svg{
+.checkbox-input:aktive + .checkbox-label span {
+
+}
+
+.btn-svg input:focus + .checkbox-svg snap{
     fill: #4D5AE5;
 }
+
 
 .checkbox-logo{
     color: #4d5ae5;
